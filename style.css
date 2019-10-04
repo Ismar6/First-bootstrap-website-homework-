@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: bg-secondary;
+    }
+    
+    container-main.{
+        background-color: aquamarine;
+        width: 80%;
+        height:80%;
+    }
+    .container-first{
+        width: 960px;
+        display: flex;
+    }
+
+  .toolbar{
+      width: 100%;
+      display: inline-flex;
+      background-color: red;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      text-align: center;
+      border-radius: 20px 20px 0 0;
+  }
+.toolbar-box{
+    height: 50px;
+    margin: auto;
+    background-color: red;
+    text-align: justify;
+
+}
+
+  .toolbar a{
+      color: aliceblue;
+      font-size: 1rem;
+      text-align: end;
+      vertical-align: -1em
+  }
+
+  .emptyplustxt{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-bottom: 5%;
+  }
+  .empty{
+      flex: 1;
+  }
+  .textcontent{
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  .empty{
+      height: 400px;
+  }
+
+  .tritexta{
+      display: flex;
+      background-color: whitesmoke;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-bottom: 5%;
+      flex-wrap: wrap;
+  }
+  .onatritexta{
+    width: 30%;
+    height: auto;
+    background-color: darkgray;
+    color: white;
+    margin: auto;
+   padding: 2%;
+  }
+
+
+#mySidenav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#mySidenav a{
+    color: darkslategray;
+    font-size: 1.5rem;
+    padding: auto;
+}
+
+}
+.vl {
+    border-left: 6px solid darkslategray;
+    height: auto;
+    position: absolute;
+    left: 30%;
+  }
+
+  .navtxticons{
+      display: flex;
+      flex-wrap: wrap;
+      background-color: whitesmoke;
+      padding-bottom: 5%;
+  }
+
+  .navpluslinija{
+      flex:2;
+      display: flex;
+  }
+  .txtarea{
+      flex:4;
+     
+  }
+ 
+  #border2{
+      flex:1;
+      border-left: 1px solid darkslategray; 
+  }
+
+  .triikone{
+      flex:2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      
+  }
+  .ikone{
+      width: 150px;
+      height:150px;
+      justify-content: space-between;
+  }
+
+
+  .zadnji{
+      background-color: red;
+      color: aliceblue;
+      font-size: em;
+      display: flex;
+      justify-content: space-between;
+  }
+  .txtlijevo{
+      flex:1;
+  }
+  .txtdesno{
+      flex:1;
+  }
+  .zadnji h4{
+      margin: 1rem;
+  }
